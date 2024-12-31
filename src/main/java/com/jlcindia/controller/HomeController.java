@@ -10,4 +10,9 @@ public class HomeController {
     public String msg(){
        return  "Welcome to Springboot project";
     }
+
+    @GetMapping("/msg")
+    public String showWishMessage(){
+        return "I am happy to see you!";
+    }
 }
