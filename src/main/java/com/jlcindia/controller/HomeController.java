@@ -16,8 +16,9 @@ public class HomeController {
         return "I am happy to see you!";
     }
 
-    @GetMapping("/message")
-    public String helloToDisplayMessage(){
-        return "Hello guys Hello guys";
+    @GetMapping("/welcome")
+    public String showHelloMessage(){
+        return "Welcome to java world";
     }
+
 }
