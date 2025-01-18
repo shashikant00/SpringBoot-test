@@ -15,4 +15,10 @@ public class HomeController {
     public String showWishMessage(){
         return "I am happy to see you!";
     }
+
+    @GetMapping("/welcome")
+    public String showHelloMessage(){
+        return "Welcome to java world";
+    }
+
 }
