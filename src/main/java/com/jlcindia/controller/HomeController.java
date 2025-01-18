@@ -11,6 +11,11 @@ public class HomeController {
        return  "Welcome to Springboot project";
     }
 
+    @GetMapping("/msg")
+    public String showWishMessage(){
+        return "I am happy to see you!";
+    }
+
     @GetMapping("/message")
     public String helloToDisplayMessage(){
         return "Hello guys Hello guys";
